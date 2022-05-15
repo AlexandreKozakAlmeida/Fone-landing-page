@@ -148,7 +148,7 @@ div.questions {
 #modal {
   position: fixed;
   left: 0;
-  top: .4rem;
+  top: -.1rem;
   width: 100%;
   height: 115%;
   z-index: 9999;
@@ -333,9 +333,18 @@ div.questions {
       border-radius: 6px;
     }
 
+    div.questions {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .buttonOpenModal {
+      margin-left: -66px;
+    }
 /* ============================ Modal detail ======================*/
 
   #modal {
+    margin-top: 1px;
     overflow: auto;
   }  
 
