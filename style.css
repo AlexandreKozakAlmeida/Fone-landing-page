@@ -277,7 +277,7 @@ display: block;
       height: 115%;
       z-index: 9999;
       display: block;
-      overflow: hidden;
+      overflow: auto;
       display: none;
     }
     
@@ -338,7 +338,7 @@ display: block;
       height: 115%;
       z-index: 9999;
       display: block;
-      overflow: hidden;
+      overflow: auto;
       display: none;
     }
     
