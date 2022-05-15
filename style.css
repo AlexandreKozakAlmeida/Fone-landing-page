@@ -343,6 +343,7 @@ div.questions {
 
     #text-to-question-button {
       margin-right: 43px;
+      width: 112px;
     }
 
     .buttonOpenModal {
@@ -359,6 +360,9 @@ div.questions {
   margin-top: -92px;
 }
    }
+
+   
     
+
   
   
