@@ -61,9 +61,9 @@
             </div>
             <div class="questions">
               <h4>Tire suas dúvidas</h4>
-              <button class="buttonOpenModal" onclick="openModal()">?</button>
+              <button id="openButton" class="buttonOpenModal" onclick="openModal()">?</button>
             </div>
-            <div class="modal">
+            <div id="modal">
             <div class="modal-contain">
                 <h4> Tire suas dúvidas </h4>
                 <p>Aqui temos algumas dúvidas comuns dos clientes em relação à esse produto. Verifique se sua dúvida já foi respondida abaixo.</p>
@@ -75,16 +75,15 @@
                  <p>Não, ele é reajustável para que você possa ficar o mais confortávelo possível.</p>
 
                  <h4>Sua dúvida não foi tirada?</h4>
-                 <p>Clique no botão e mande sua dúvida diretamente para nós e nós lhe responderemos o mais rápido possível.
+                 <p>Clique no botão e mande sua dúvida diretamente para nós e nós lhe responderemos o mais rápido possível:
                   <br>
-                  <a class="wpp-link" href="https://web.whatsapp.com/send?phone=41992632405" target="_blank">
-                    <i class="fa fa-whatsapp">
-                    </i>
-                  </a>
+                  
+                    <a class="wpp-link" href="https://wa.me/5541992632405">
+                      <img src="./fone-landing-page-master/assets/whatsapp.png" alt="">
+                    </a>                          
                 </p>
                 <br>
-                <div class="modal-buttons">
-                  <button class="ok" onclick="closeModal()">ok</button>
+                <div id="closeButton" class="modal-button">
                   <button class="close" onclick="closeModal()">close</button>
                 </div>
                  </div>
