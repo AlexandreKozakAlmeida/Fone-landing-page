@@ -153,7 +153,7 @@ div.questions {
   height: 115%;
   z-index: 9999;
   display: block;
-  overflow: none;
+  overflow: hidden;
   display: none;
 }
 
@@ -161,6 +161,8 @@ div.questions {
   opacity: 1;
   display: block;
   animation: modal .7s;
+  margin-top: -40px;
+  
 }
 
 @keyframes modal {
@@ -347,7 +349,10 @@ div.questions {
     margin-top: 1px;
     overflow: auto;
   }  
-
+#modal.show {
+  display: block;
+  margin-top: -92px;
+}
    }
     
   
