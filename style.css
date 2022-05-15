@@ -341,7 +341,10 @@ div.questions {
       flex-direction: column;
     }
 
-    
+    #text-to-question-button {
+      margin-right: 43px;
+    }
+
     .buttonOpenModal {
       margin-left: -66px;
     }
